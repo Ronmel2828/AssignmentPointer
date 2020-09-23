@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+int main () {
+	
+	
+	string name, *ptrName = &name, course, *ptrCourse = &course;
+	int age;
+	
+	cout <<"Enter your Name: ";
+	cin>>name;
+	
+	cout <<"Enter your Course: ";
+	cin>>course;
+	
+	cout <<"Enter your Age: ";
+	cin>>age;
+	
+	cout <<"Your name is " << *ptrName << " a " <<*ptrCourse << " student, is " <<age<< " years old "<<endl;
+	
+	return 0;
+	
+}
+	       
+	
